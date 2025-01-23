@@ -1,0 +1,17 @@
+{
+  "name": "first tailwind project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "prettier": "npx prettier --write ./**/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "prettier-plugin-tailwindcss": "^0.1.13"
+  }
+}
