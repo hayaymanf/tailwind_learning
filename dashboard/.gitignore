@@ -1,0 +1,30 @@
+# Node modules (if you're using npm or yarn)
+node_modules/
+
+# Tailwind CSS build output (if you’re using a build tool like PostCSS)
+public/
+
+# .env file (if you're using environment variables)
+.env
+
+# Log files
+*.log
+
+# OS-generated files (macOS, Linux, Windows)
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files (optional, depending on your editor)
+.vscode/
+.idea/
+
+# npm or yarn lock files (optional, but you may want to commit them for consistency)
+# package-lock.json
+# yarn.lock
+
+# Tailwind CSS specific (if you're using any cache, it depends on your build tool)
+.purgecss/
+
+# Compiled CSS files (if you're using Tailwind's `build` command)
+/dist/
+/build/
